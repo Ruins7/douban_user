@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/*菜单栏的css*/
+#title{
+	padding:0px;
+	margin:0px;
+	background-color:#545652;
+	height:29px;
+	width:100%;
+	min-width:1350px;}
+/*菜单栏内容*/
+.menu,
+.menu ul,
+.menu li,
+.menu a{
+	margin:0;
+	padding:0;
+	border: none;
+	outline: none;}
+.menu{
+	width:800px;
+	height:29px;
+	}
+.menu li{
+	position:relative;
+	list-style:none;
+	float:left;
+	display:block;
+	height:29px;
+	}
+.menu li a{
+	width:50px;
+	display:block;
+	line-height:28px;
+	text-decoration:none;
+	/*border-left: 1px solid  #000000;
+	border-right: 0px solid #000000;*/
+	font-size:16px;
+	font-family:宋体;
+	color:black;
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;}
+.menu li:hover > a{color:#F4EBEB;}
+
+
+.menu1,
+.menu1 ul,
+.menu1 li,
+.menu1 a{
+	margin:0;
+	padding:0;
+	border: none;
+	outline: none;}
+.menu1{
+	width:200px;
+	height:29px;
+	}
+.menu1 li{
+	position:relative;
+	list-style:none;
+	float:left;
+	display:block;
+	height:29px;
+	}
+.menu1 li a{
+	width:50px;
+	display:block;
+	line-height:28px;
+	text-decoration:none;
+	/*border-left: 1px solid  #000000;
+	border-right: 0px solid #000000;*/
+	font-size:16px;
+	font-family:宋体;
+	color:black;
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;}
+.menu1 li:hover > a{color:#F4EBEB;}

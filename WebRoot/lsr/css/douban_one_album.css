@@ -1,0 +1,8 @@
+@charset "utf-8";
+#bigarround{z-index: 2;position: absolute;left: 0px;top: 0px;background-color:#CCD6DA;filter:alpha(opacity=60);
+	-moz-opacity:0.6;
+	-khtml-opacity: 0.6;
+	opacity: 0.6;)
+	} 
+	
+#showpage{display: none;z-index:2;position: absolute;left: 20%;top: 100px;width: 800px; height: auto; margin-left: auto;margin-right: auto;padding-top:20px;margin-bottom:400px;padding-left:20px;background-color: #BAD7E6;border-radius:20px 20px 20px 20px;}

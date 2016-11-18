@@ -1,0 +1,23 @@
+#doulieul{ 
+     float: left;
+     width: 89%;
+     height: 50px;
+     background-color:#fff6ee; 
+     border-radius:5px;
+     padding-left: 20px;
+     padding-top: 17px;
+     font-size: 14px;
+}
+#doulieul li{ 
+     float: left;
+     width: 100px;
+     list-style-type: none;
+}
+#doulieul a : hover{ 
+	 text-decoration: none;
+     color: #30983f;
+     font-weight: 900;
+}
+#focus{
+	 width: 650px;min-height: 100px;height: auto;float: left;
+}

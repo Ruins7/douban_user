@@ -1,0 +1,272 @@
+@charset "utf-8";
+/*菜单栏的css*/
+*{
+	padding:0;
+	margin:0;
+	font-family:宋体;
+}
+#title{	
+	padding-top:1px;
+	margin:0px;
+	background-color:#545652;
+	height:24px;
+	width:100%;
+    min-width:1000px;	
+}
+/*菜单栏内容*/
+#menua{
+	height: 25px;
+	width: 70%;
+	float: left;
+}
+#menub{
+	height: 25px;
+	width: 20%;
+	float: right;
+}
+#menua ul li{
+	text-align:center;
+	margin-left:10px;
+    float:left;
+	width: 60px;
+	list-style-type: none;
+	font-size: 13px;
+	padding-top: 3px;
+}
+#menua ul li a{
+	text-decoration:none;
+	color: #DDDDDD;
+}
+#menua ul li a:hover{
+	text-decoration:none;
+	color: #EDF4ED;
+}
+
+#menub ul{
+	width: 270px;
+}
+#menub ul li{
+	text-align:center;
+	margin-left:10px;
+    float:left;
+	width: 60px;
+	list-style-type: none;
+	font-size: 13px;
+	padding-top: 3px;
+}
+#menub ul li a{
+	text-decoration:none;
+	color: #DDDDDD;
+}
+#menub ul li a:hover{
+	text-decoration:none;
+	color: #EDF4ED;
+}
+ 
+/*douban*/
+#douban{
+	width:100%;
+	min-width:1000px;
+	height:80px;
+	background-color: #EDF4ED;
+}
+
+.douban_menu,
+.douban_menu ul,
+.douban_menu li,
+.douban_menu a{
+	margin:0;
+	padding:0;
+	border: none;
+	outline: none;
+	text-align: center;
+	 
+}
+.douban_menu{
+	padding-left:10px;
+	padding-top:30px;
+	height:29px;
+	float:left;
+	}
+.douban_menu li{
+	width:90px;
+	list-style:none;
+	float:left;
+	display:block;
+	height:29px;
+	}
+.douban_menu li a{
+	width:60px;
+	height:20px;
+	display:block;
+	line-height:28px;
+	text-decoration:none;
+	/*border-left: 1px solid  #000000;
+	border-right: 0px solid #000000;*/
+	font-size:15px;
+	font-family:宋体;
+	color:black;
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;
+}
+.douban_menu li:hover a{
+  background-color: #545652;
+  color:#EDF4ED;
+}
+#left{
+	margin-top:20px;
+	margin-bottom:20px;
+	width:690px;
+	height:auto;
+	float:left;
+	margin-left:150px;
+	/* border: 1px solid #000; */
+	}
+#righttt{
+	margin-left:40px;
+	margin-top:100px;
+	float:left;
+	width: 340px;
+	height: auto;
+	margin-bottom: 20px;
+	 
+
+}
+#myself{
+	width: 280px;
+	min-height: 200px;
+	height:auto;
+	background-color: #FFF6ED;
+	padding-bottom: 20px;
+	overflow:auto;
+}
+#myself_up{
+ float: :left;
+ padding: 10px;
+ font-size: 12px;
+ color: #545652;
+}
+#myself_down{
+	float:left;
+	padding:10px;
+	height: auto;
+	min-height: 30px;
+	width: 280px;
+	font-size: 12px;
+	word-wrap:break-word;/*使得文字不会从div中溢出*/
+	color: #545652;
+}
+#search{
+	width:300px;
+	height:40px; 
+	float:left;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+#search_input{
+    height:40px;
+	float: left;
+}
+#search_btn{
+    height:40px;
+	float: left;
+} 
+#left_menu{
+	list-style-type: none;
+	font-size: 12px;
+	text-align: center;
+}
+#left_menu li{
+	width: 50px;
+	float:left;
+}
+.my{
+	float:left;
+	width: 650px;
+	min-height:80px;
+	height:auto;
+	margin-top: 10px;
+	padding: 10xp;
+	margin-bottom: 20px;
+	 
+}
+#myFocus{
+	width:280px;
+	height:70px;
+	text-align: center;
+	float:left;
+}
+#myFocus ul li{
+   float: left;
+   width: 55px;
+   text-align: center;
+   list-style-type: none;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   
+}
+#myFocus2{
+	width:280px;
+	height:70px;
+	text-align: center;
+}
+#myFocus2 ul li{
+   float: left;
+   width: 70px;
+   text-align: center;
+   list-style-type: none;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+#myactivity{
+	padding-top: 10px;
+	width: 280px;
+	height: auto;
+}
+#mydoulist{
+	padding-top: 10px;
+	width: 280px;
+	height: auto;
+}
+#mygroup{
+	padding-top: 10px;
+	width: 280px;
+	height: auto;
+}
+#myalbum{	 
+	width:650px;
+	height:auto;
+}
+#myalbum li{
+	float:left;
+    padding:5px;
+	text-align:center;
+	list-style-type:none; 
+	width:160px;
+	height:auto;
+}
+#mythings{	 
+	width:650px;
+	height:auto;
+}
+#mythings li{
+	float:left;
+    padding:5px;
+	text-align:center;
+	list-style-type:none; 
+	width:130px;
+	height:auto;
+}
+.edit_whats_up{
+	border-radius:3px;
+	text-indent:5px;
+	font-size:12px;
+	width: 200px;
+}
+.whats_up{
+	border:none;
+	color:#545652;
+	font-size:12px;
+	width: 200px;
+}
+ 

@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+#personal_group_rightside{
+	width:330px;
+	height:auto;
+	float:left;
+	position:absolute;
+	left:870px;
+}
+#user_card{
+	width:310px;
+	height:115px;
+	margin:85px 0 0 20px;
+	background-color:#F9F9F9;
+	padding:20px 0 0 15px;
+}
+#user_card1{
+	width:310px;
+	height:200px;
+	margin:85px 0 0 20px;
+	background-color:#F9F9F9;
+	padding:20px 0 0 15px;
+}
+#user_pic{
+	position:relative;
+	float:left;
+}
+#user_pic img{
+	width:80px;
+	height:80px;
+}
+#user_info{
+	float:left;
+	position:relative;
+	left:15px;
+}
+#living{
+	margin-top:7px;
+	font-size:13px;
+	color:#00959E;
+}
+#homelink{
+	margin-top:7px;
+	font-size:13px;
+}
+#homelink a{
+	text-decoration:none;
+	color: #7A7575;
+	font-family:"微软雅黑";
+}
+#user_card_null{
+	float:none;
+	clear:both;
+}
+#send_msg{
+	position:relative;
+	margin-left:20px;
+	margin-bottom:5px;
+	width:220px;
+	height:23px;
+	background-color:#00959E;
+	border-radius:4px 4px 4px 4px;
+}
+#add_attention{
+	position:relative;
+	margin-left:20px;
+	margin-bottom:5px;
+	width:220px;
+	height:23px;
+	background-color: #FCFCFC;
+	border-radius:4px 4px 4px 4px;
+	border: solid 1px #00959E;
+}
+#send_msg a{
+	margin-top:20px;
+	margin:9px 0 0 80px;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+#add_attention a{
+	margin-top:20px;
+	margin:9px 0 0 80px;
+	color:#00959E;
+	text-decoration:none;
+}
+#album{
+	margin:20px 0 0 20px;
+}
+#album1{
+	margin:35px 0 0 20px;
+}
+#personal_group_rightside hr{
+	margin-top:9px;
+	margin-right:15px;
+}
+#album_list ul li{
+	list-style:none;
+	float:left;
+	margin-left:18px;
+	margin-bottom:25px;
+	padding:5px;
+}
+#album1_list ul li{
+	list-style:none;
+	float:left;
+	margin-left:18px;
+	margin-bottom:25px;
+	padding:5px;
+}
+#album_name a{
+	text-decoration:none;
+	font-size:12px;
+}
+#album1_name a{
+	text-decoration:none;
+	font-size:12px;
+}
+#album_name a:hover{
+	background-color:#3377AA;
+	color:#F8F8F8;
+}
+#album1_name a:hover{
+	background-color:#3377AA;
+	color:#F8F8F8;
+}
+#update_time{
+	font-size:12px;
+	color: #605E5E;
+}
+
+

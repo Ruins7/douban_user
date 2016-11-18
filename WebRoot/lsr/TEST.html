@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<script type="text/javascript" src="js/jquery.cityselect.js"></script>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js"></script>
+<script type="text/javascript">
+var myprovince = remote_ip_info['province'];
+var mycity = remote_ip_info['city']
+var mydistrict = remote_ip_info['district'];
+     
+$(function(){
+	
+	$("#city_1").citySelect({
+		prov:myprovince, 
+    	city:mycity,
+	});
+});
+</script>
+</head>
+<body>
+<p>您所在的城市是：<script>document.write(myprovince+' '+mycity);</script></p>
+<div id="city_1">
+    <select class="prov">
+        <option><script>document.write(myprovince)</script></option>
+    </select> 
+    <select class="city">
+        <option><script>document.write(mycity)</script></option>
+    </select>
+</div>
+</body>
+</html>

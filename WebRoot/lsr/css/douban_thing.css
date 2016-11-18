@@ -1,0 +1,210 @@
+@charset "utf-8";
+*{
+	padding:0;
+	margin:0;
+	font-family:宋体;
+}
+#title{	
+	padding-top:1px;
+	margin:0px;
+	background-color:#545652;
+	height:24px;
+	width:100%;
+    min-width:1000px;	
+}
+/*菜单栏内容*/
+#menua{
+	height: 25px;
+	width: 70%;
+	float: left;
+}
+#menub{
+	height: 25px;
+	width: 20%;
+	float: right;
+}
+#menua ul li{
+	text-align:center;
+	margin-left:10px;
+    float:left;
+	width: 60px;
+	list-style-type: none;
+	font-size: 13px;
+	padding-top: 3px;
+}
+#menua ul li a{
+	text-decoration:none;
+	color: #DDDDDD;
+}
+#menua ul li a:hover{
+	text-decoration:none;
+	color: #EDF4ED;
+}
+
+#menub ul{
+	width: 270px;
+}
+#menub ul li{
+	text-align:center;
+	margin-left:10px;
+    float:left;
+	width: 60px;
+	list-style-type: none;
+	font-size: 13px;
+	padding-top: 3px;
+}
+#menub ul li a{
+	text-decoration:none;
+	color: #DDDDDD;
+}
+#menub ul li a:hover{
+	text-decoration:none;
+	color: #EDF4ED;
+}
+/*douban*/
+#douban{
+	width:100%;
+	min-width:1000px;
+	height:80px;
+	background-color: #EDF4ED;
+}
+
+.douban_menu,
+.douban_menu ul,
+.douban_menu li,
+.douban_menu a{
+	margin:0;
+	padding:0;
+	border: none;
+	outline: none;
+	text-align: center;
+	 
+}
+.douban_menu{
+	
+	padding-left:10px;
+	padding-top:30px;
+	height:40px;
+	float:left;
+	}
+.douban_menu li{
+	width:100px;
+	list-style-type:none;
+	float:left;
+	height:29px;
+	font-size: 24px;
+	}
+.douban_menu li a{
+	width:20px;
+	height:20px;
+	display:block;
+	line-height:28px;
+	text-decoration:none;
+	/*border-left: 1px solid  #000000;
+	border-right: 0px solid #000000;*/
+ 
+	font-family:宋体;
+	color:black;
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;
+}
+.douban_menu li:hover a{
+  background-color: #545652;
+  color:#EDF4ED;
+	}
+#search{
+	width:300px;
+	height:40px; 
+	float:left;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+ #search_input{
+    height:40px;
+	float: left;
+}
+#search_btn{
+    height:40px;
+	float: left;
+} 
+ 
+#left{
+	width:140px;
+	height:500px;
+	float:left;
+	position:relative;
+	margin-left:200px;
+	background:#FFFFFF;
+	margin-top: 10px;
+	}
+#right{
+	position:relative;
+	margin-left: 371px;
+	width: 800px;
+	height:500px;
+}
+.right_top{
+	width:800px;
+	height:192px;
+	background:#F8F8F8}
+	
+#thing_side{
+	margin-left:210px;
+	width:970px;
+	height: auto;
+	margin-bottom: 30px;
+	}
+.thingsimg{
+	height: 260px;
+	width: 300px;
+}
+.thingsname{
+	float: left;
+	width: 280px;
+	height:20px;
+	margin-left: 10px;
+	margin-top: 60px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #7F4B2F;
+}
+.thingsuser{
+	float: left;
+	width: 280px;
+	height:40px;
+	margin-left: 10px;
+	margin-top: 30px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #7F4B2F;
+}
+.thingscommon{
+	float: left;
+	width: 280px;
+	margin-left: 10px;
+	margin-top: 20px;
+	font-size: 14px;
+	color: #545652;
+	height: 80px;
+	word-wrap:break-word;/*使得文字不会从div中溢出*/
+}
+.th{
+	margin-top:30px;
+	margin-left:5px;
+	margin-right:5px;
+	float:left;
+	width:302px; 
+	height:550px;
+	border-width: 2px;
+	border-color: #F5F5F5;
+	border-style: solid;
+	background-color:#fff;
+	box-shadow: 3px 3px 6px #ccc;
+	
+}
+.thingsbottom{
+	font-size: 12px;
+	color: #545652;
+	margin-left: 30px;
+	height:15px;
+}

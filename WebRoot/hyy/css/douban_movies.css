@@ -1,0 +1,167 @@
+@charset "utf-8";
+*{
+	font-family:宋体;
+	/*overflow-y:scroll;padding:0px;*/
+	margin:0px;
+	}
+/*菜单栏的css*/
+#title{
+	padding:0px;
+	margin:0px;
+	background-color:#545652;
+	height:29px;
+	width:1350px;}
+/*菜单栏内容*/
+.menu,
+.menu ul,
+.menu li,
+.menu a{
+	margin:0;
+	padding:0;
+	border: none;
+	outline: none;}
+.menu{
+	width:800px;
+	height:29px;
+	}
+.menu li{
+	position:relative;
+	list-style:none;
+	float:left;
+	display:block;
+	height:29px;
+	}
+.menu li a{
+	width:50px;
+	display:block;
+	line-height:28px;
+	text-decoration:none;
+	/*border-left: 1px solid  #000000;
+	border-right: 0px solid #000000;*/
+	font-size:16px;
+	font-family:宋体;
+	color:black;
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;}
+.menu li:hover > a{color:#F4EBEB;}
+/*豆瓣标题*/
+#douban{
+	background:#F6F6F1;
+	width:1350px;
+	height:118px;}
+/*豆瓣标题上部分*/
+.top{
+	background:#F6F6F1;
+	height:75px;}
+/*豆瓣读书图片的位置*/
+.img{
+	float:left;
+	margin-left:190px;
+	margin-top:20px;
+	width:145px;}
+/*搜索*/
+.seach{
+	float:left;
+	position:relative;
+	margin-left:100px;
+	margin-top:25px;
+	
+	}	
+/*豆瓣标题下部分*/
+.bottom{
+	background-color:#F6F6F1;
+	bottom:0px;
+	height:40px;
+	}
+.bottom_title{
+	margin-left:160px;
+	padding-top:5px;}
+/*豆瓣标题下部分的内容*/
+.title_menu,
+.title_menu ul,
+.title_menu li,
+.title_menu a{
+	border: none;
+	outline: none;}
+.title_menu{
+	width:900px;
+	height:29px;
+	}
+.title_menu li{
+	position:relative;
+	list-style:none;
+	float:left;
+	display:block;
+	height:29px;
+	}
+.title_menu li a{
+	width:90px;
+	display:block;
+	line-height:28px;
+	text-decoration:none;
+	/*border-left: 1px solid  #000000;
+	border-right: 0px solid #000000;*/
+	font-size:12px;
+	font-family:宋体;
+	color:blue;
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;}
+.title_menu li:hover > a{color:#68D7DC;}	
+
+	
+/*豆瓣的整体内容*/
+#content{
+	/*background:#D93538;*/
+	width:1350px;
+	height:2300px;}
+/*豆瓣整体内容的左边内容*/
+#left{
+	position:absolute;
+	
+	left:190px;
+	width:623px;
+	height:2300px;}
+.movies_left{
+	float:left;
+	position:relative;
+	width:311px;
+	height:180px;
+	}	
+.movies_right{
+	
+	float:left;
+	position:relative;
+	width:312px;
+	height:180px;}	
+.vleft{
+	float:left;
+	position:relative;
+	width:82px;
+	height:153px;}	
+.vright{
+	float:left;
+	position:relative;
+	width:541px;
+	height:153px;}
+	
+	
+	
+/*豆瓣整体内容的右边内容*/
+#right{
+	margin-left:813px;
+	width:337px;
+	height:1300px;
+	}
+/*图片*/
+.right_img{
+	padding-top:10px;
+	height:280px;}
+/*甲壳虫推荐书籍*/
+.jiakechong{
+	font-size:18px;
+	height:180px;
+	background:#7EBBD7;}
+/*热门标签*/
+.remen{
+	font-size:18px;
+	height:360px;}

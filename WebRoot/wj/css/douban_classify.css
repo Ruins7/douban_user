@@ -1,0 +1,21 @@
+@charset "utf-8";
+/*豆瓣的整体内容*/
+#content1{
+	width:1350px;
+	height:750px;}
+/*豆瓣整体内容的左边内容*/
+#left1{
+	position:absolute;
+	
+	left:190px;
+	width:623px;
+	height:750px;}
+/*豆瓣整体内容的右边内容*/
+#right1{
+	margin-left:813px;
+	width:337px;
+	height:750px;
+	}
+#bottom{
+	position:relative;
+	bottom:0px;}

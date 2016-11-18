@@ -1,0 +1,6 @@
+@CHARSET "UTF-8";
+ 
+#add_to_doulie_div_arround{z-index: 4;position: absolute;left: 0px;top: 0px;background-color:#CCD6DA;filter:alpha(opacity=60);
+	-moz-opacity:0.6;
+	-khtml-opacity: 0.6;
+	opacity: 0.6;)}

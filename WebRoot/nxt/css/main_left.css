@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+#main_left{
+	position:absolute;
+	float:left;
+	width:680px;
+	height:auto;
+	left:140px;
+}
+#subject{
+	font-size:26px;
+	font-family:"微软雅黑";
+	margin:30px;
+	color:#676767;
+}
+#channel_item{
+	position:relative;
+	margin:10px;
+	height:auto;
+}
+#likes{
+	float:left;
+	position:relative;
+	width:50px;
+	height:50px;
+	background-color:#FAE9DA;
+	text-align:center;
+	color:#CA6445;
+	font-size:13px;
+	padding:10px;
+	left:23px;
+	
+}
+#item_content{
+	float:left;
+	position:relative;
+	width:580px;
+	left:40px;
+	margin-bottom:10px;	
+}
+#item_content a{
+	text-decoration:none;
+	
+}
+#item_content a:hover{
+	background-color:#3377AA;
+	color:#FFFFFF;
+}
+#block{
+	background-color:#F9F9F9;
+	width:580px;
+	height:85px;
+	padding:6px;
+	margin-top:10px;
+}
+#pic{
+	position:relative;
+	float:left;
+}
+#content{
+	position:relative;
+	width:540px;
+	left:15px;
+	font-size:13px;
+	color:#999999;
+	margin-top:10px;
+}
+#source{
+	margin-top:10px;
+	width:580px;
+}
+#from{
+	font-size:13px;
+}
+#from a{
+	color:#000000;
+	text-decoration:none;
+}
+#pubtime{
+	position:relative;
+	left:20px;
+	font-size:13px;
+	color:#999999;
+}
+

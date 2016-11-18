@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+#main_nav{
+	position:relative;
+	width:100%;
+	min-width:1366px;
+	height:110px;
+	background:#F0F6F3;
+	
+}
+#group_logo{
+	position:absolute;
+	float:left;
+	left:120px;
+	width:120px;
+	height:46px;
+	font-family:"微软雅黑";
+	font-size:30px;
+	font-weight:bold;
+	color:#0E959D;
+	margin:50px;
+}
+#classify_search{
+	position:absolute;
+	float:left;
+	left:260px;
+	height:46px;
+	font-family:"微软雅黑";
+	font-size:16px;
+	margin:60px;
+}
+#classify_search a{
+	text-decoration:none;
+	padding:12px;
+	color:#0E959D;
+}
+#global_search{
+	position:absolute;
+	float:left;
+	left:860px;
+	margin:55px;
+}
+#input_search{
+	position:relative;
+	overflow-x:visible;
+	width:260px;
+	height:27px;
+	border:0px solid #FFF;
+	text-indent:8px;
+}
+#button_search{
+	position:relative;
+	width:27px;
+	height:27px;
+	border:0px solid #FFF;
+	color:#FFFFFF;
+}

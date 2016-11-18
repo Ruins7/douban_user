@@ -1,0 +1,226 @@
+@charset "utf-8";
+/* CSS Document */
+#grouppost_left{
+	width:680px;
+	position:absolute;
+	height:auto;
+	float:left;
+	left:165px;
+}
+#post_title{
+	margin-top:40px;
+	font-size:24px;
+	font-family:"微软雅黑";
+}
+#pub_time{
+	margin-left:16px;
+	color:#8D8F22;
+}
+#post_content{
+	margin-top:15px;
+}
+#user_pic{
+	float:left;
+}
+#post_doc{
+	float:left;
+	margin-left:20px;
+}
+#post_from{
+	padding:8px 0 0 0;
+}
+#post_from:nth-child(1){
+	left:10px;
+	color:#577760;
+}
+#post{
+	margin-top:10px;
+	width:600px;
+	font-size:13px;
+	font-family:"微软雅黑";
+	color:#000000;
+	line-height:22px;
+	padding:20px 0 20px 20px;
+	background-color: #FFF4E8;
+}
+
+#br_null{
+	float:none;
+	clear:both;
+}
+#user_operate{
+	margin-top:50px;
+	font-size:13px;
+	color:#848484;
+}
+#user_operate a{
+	text-decoration:none;
+	
+}
+#rec_num{
+	float:left;
+	margin-left:55px;
+	
+}
+#like_num{
+	float:right;
+}
+#rec_num span :hover,
+#like_num span :hover{
+	background:#3377AA;
+	color:#FFFFFF;
+}
+#rec_num label,
+#like_num label{
+	width:50px;
+	height:22px;
+	background-color:#EFF5EF;
+	border-radius:4px 4px 4px 4px;
+}
+#rec_num label a,
+#like_num label a{
+	color:#4F946E;
+	margin:14px 0 17px 10px;
+}
+#people_reviews{
+	margin-top:40px;
+	margin-left:5px;;
+}
+#review_nav a{
+	text-decoration:none;
+	padding-right:10px;
+	font-size:14px;
+	font-family:"微软雅黑";
+	width:50px;
+	height:22px;
+}
+#review_nav span{
+	float:right;
+	font-size:14px;
+}
+#review_nav span a:hover{
+	background-color:#83BF73;
+	color:#FFFFFF;
+}
+#people_reviews hr{
+	margin-top:5px;
+	margin-bottom:20px;
+}
+#review_list{
+	margin-top:30px;
+}
+#review_item{
+	margin-top:20px;
+	width:700px;
+}
+#user_face{
+	float:left;
+}
+#user_face img{
+	width:48px;
+	height:48px;
+}
+#item{
+	width:640px;
+	margin-left:80px;	
+}
+#item_from{
+	width:593px;
+	height:20px;
+	background-color:#F0F6F3;
+	
+}
+#item_from span a{
+	text-decoration:none;
+	
+}
+#item_from span{
+	color:#7C7A7B;
+	font-size:12px;
+	font-family:"微软雅黑";
+	margin-left:5px;
+}
+#item_content{
+	width:593px;
+	margin-top:20px;
+	font-size:12px;
+	font-family:"微软雅黑";
+	color:#000000;
+}
+#rec{
+	margin-top:30px;
+	padding:5px 0 5px 0;
+}
+
+#small_pic{
+	float:left;
+}
+#small_pic img{
+	width:30px;
+	height:30px;
+}
+#rec_from{
+	position:relative;
+	margin-left:50px;
+}
+#rec_from span{
+	float:right;
+}
+#who_rec{
+	font-size:12px;
+	font-family:"微软雅黑";
+	color:#888585;
+}
+#who_rec a:hover{
+	text-decoration:none;
+	background-color:#3377AA;
+	color:#FFFFFF;
+}
+#rec_content{
+	background-color:#F6F6F6;
+	text-indent:15px;
+	line-height:30px;
+	font-size:13px;
+	font-family:"微软雅黑";
+	color:#413F3F;
+	margin-top:15px;
+}
+#operate{
+	float:right;
+	margin-right:80px;
+	margin-top:10px;
+}
+#operate a{
+	text-decoration:none;
+	padding-left:10px;
+	color:#969090;
+	font-size:12px;
+}
+#paginator{
+	margin-top:15px;
+	text-align:center;
+	font-size:14px;
+}
+#paginator a{
+	padding:10px;
+}
+#paginator a:hover{
+	text-decoration:none;
+	background-color:#3377AA;
+	color:#E5E5E5;
+}
+#your_reply{
+	margin-top:20px;
+}
+#your_reply textarea{
+	width:680px;
+	height:150px;
+	overflow:hidden;
+	resize:none;
+	margin-top:15px;
+}
+#your_reply input{
+	float:right;
+	margin-top:10px;
+}
+	

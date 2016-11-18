@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+#mygroup_left_topic{
+	width:750px;
+	height:auto;
+	position:absolute;
+	left:140px;
+	float:left;
+	padding:25px;
+}
+#my_subject{
+	font-size:26px;
+	color:#494949;
+	font-weight:bold;
+}
+#title{
+	margin-top:20px;
+	height:50px;
+}
+#group_pic{
+	position:absolute;
+	float:left;
+}
+#group_name{
+	position:relative;
+	float:left;
+	margin:5px 0 0 80px;
+	font-size:24px;
+	font-weight:bold;
+}
+#join_group1 a,
+#join_group a{
+	color:#FFFFFF;
+	text-decoration:none;
+	font-size:13px;
+}
+#join_group1,
+#join_group{
+	position:relative;
+	float:left;
+	margin:8px 0 0 20px;
+	padding:4px 0 0 8px;
+	background-color:#6EBFC3;
+	width:70px;
+	height:30px;
+	
+	border-radius:3px 3px 3px 3px;
+}
+#join{
+	position:relative;
+	float:left;
+	margin:8px 0 0 20px;
+	padding:4px 0 0 8px;
+}
+#group_intro{
+	width:650px;
+	background-color:#FFF4E8;
+	margin-top:20px;
+	border-radius:6px 6px 6px 6px;
+	padding:25px 0 18px 25px;
+	
+}
+#topic_title{
+	height:30px;
+	margin-top:40px;
+	margin-bottom:20px;
+}
+#topic_nav{
+	float:left;
+}
+#publish_news{
+	float:left;
+	margin-left:370px;
+	width:70px;
+	height:23px;
+	background-color:#FFF4E8;
+	border-radius:4px 4px 4px 4px;
+}
+#speak{
+	float:left;
+	margin-left:10px;
+	width:70px;
+	height:23px;
+	background-color:#FFF4E8;
+	border-radius:4px 4px 4px 4px;
+}
+#publish_news a,
+#speak a{
+	text-decoration:none;
+	color:#CA6445;
+	font-size:13px;
+	font-family:"微软雅黑";
+	margin-left:10px;
+	margin-top:5px;
+}
+#close_icon{
+	float:right;
+}
+.pro-banner{
+	margin-top:10px;
+}
+#mygroup_table{
+	font-size:12px;
+	line-height:30px;
+}
+.pl{
+	border-bottom:1px dashed #D4D4D4;
+}
+.td-subject{
+	width:330px;
+}
+.td-reply{
+	width:90px;
+}
+.td-time{
+	width:160px;
+}
+.td-lastreply{
+	width:80px;
+}
+.td-group{
+	width:160px;
+	float: right;
+}
+.td-author{
+	width:160px;
+}
+#paginator{
+	margin-top:15px;
+	text-align:center;
+	font-size:14px;
+}
+#paginator a{
+	padding:10px;
+}
+#paginator a:hover{
+	text-decoration:none;
+	background-color:#3377AA;
+	color:#E5E5E5;
+}

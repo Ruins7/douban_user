@@ -1,0 +1,151 @@
+@charset "utf-8";
+/*菜单栏的css*/
+*{
+	padding:0;
+	margin:0;
+	font-family:宋体;}
+#title{
+	padding:0px;
+	margin:0px;
+	background-color:#545652;
+	height:29px;
+	width:1350px;}
+/*菜单栏内容*/
+.menu,
+.menu ul,
+.menu li,
+.menu a{
+	margin:0;
+	padding:0;
+	border: none;
+	outline: none;}
+.menu{
+	width:800px;
+	height:29px;
+	}
+.menu li{
+	position:relative;
+	list-style:none;
+	float:left;
+	display:block;
+	height:29px;
+	}
+.menu li a{
+	width:50px;
+	display:block;
+	line-height:28px;
+	text-decoration:none;
+	/*border-left: 1px solid  #000000;
+	border-right: 0px solid #000000;*/
+	font-size:16px;
+	font-family:宋体;
+	color:black;
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;}
+.menu li:hover > a{color:#F4EBEB;}
+
+/*douban*/
+#douban{
+	width:1350px;
+	height:80px;
+}
+.douban_menu,
+.douban_menu ul,
+.douban_menu li,
+.douban_menu a{
+	margin:0;
+	padding:0;
+	border: none;
+	outline: none;}
+.douban_menu{
+	padding-left:10px;
+	padding-top:30px;
+	height:50px;
+	float:left;
+	}
+.douban_menu li{
+	position:relative;
+	list-style:none;
+	float:left;
+	display:block;
+	height:29px;
+	}
+.douban_menu li a{
+	width:80px;
+	display:block;
+	line-height:28px;
+	text-decoration:none;
+	/*border-left: 1px solid  #000000;
+	border-right: 0px solid #000000;*/
+	font-size:16px;
+	font-family:宋体;
+	color:black;
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;}
+.douban_menu li:hover > a{color:#F4EBEB;}
+
+
+#left{
+	
+	width:710px;
+	height:1350px;;
+	float:left;
+	position:relative;
+	margin-left:189px;}
+.left_title{
+	width:710px;
+	height:100px;}
+.left_menu,
+.left_menu ul,
+.left_menu li,
+.left_menu a{
+	margin:0;
+	padding:0;
+	border: none;
+	outline: none;}
+.left_menu{
+	width:710px;
+	height:30px;
+	}
+.left_menu li{
+	position:relative;
+	list-style:none;
+	float:left;
+	display:block;
+	height:29px;
+	}
+.left_menu li a{
+	width:60px;
+	display:block;
+	line-height:28px;
+	text-decoration:none;
+	font-size:12px;
+	font-family:宋体;}
+
+.headtitle{
+	width:710px;
+	height:330px;
+	background:#F8F8F8;}
+.topic{
+	padding-top:80px;
+	width:700px;}
+	
+	
+#right{
+	
+	float:right;
+	position:relative;
+	margin-right:150px;
+	width: 289px;
+	height:472px;
+}
+.user{
+	width:289px;
+	height:72px;
+	background:#FFF6ED;}
+.user1{
+	width:289px;
+	height:54px;
+	padding-top:10px;
+	background:#FFF6ED;
+	}

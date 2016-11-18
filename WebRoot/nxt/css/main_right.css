@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+#main_right{
+	position:absolute;
+	float:left;
+	width:350px;
+	height:auto;
+	left:870px;
+}
+#rec_group{
+	position:relative;
+	width:320px;
+	background-image:url(../images/ads/bd315c6034a85edfe41ef9224b540923dd547524.jpg);
+	height:190px;
+	margin-top:100px;
+	padding:18px;
+	color:#FFFFFF;
+	font-size:14px;
+	font-family:"微软雅黑";
+}
+#rec_title{
+	color:#157098;
+	font-size:16px;
+}
+#rec_list{
+	margin-top:10px;
+	line-height:25px;
+}
+#rec_list a{
+	color:#E1E1E1;
+	font-size:12px;
+}
+#hot_group{
+	height:55px;
+	font-size:13px;
+}
+#group_image{
+	position:absolute;
+	float:left;
+}
+#group_shortcut{
+	position:relative;
+	left:70px;
+	float:left;
+}
+#group_shortcut a{
+	text-decoration:none;
+}
+#group_name{
+	margin-top:2px;
+}
+#group_num{
+	margin-top:15px;
+}
+

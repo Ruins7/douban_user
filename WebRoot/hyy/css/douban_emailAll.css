@@ -1,0 +1,134 @@
+
+
+*{
+	font-family:宋体;
+	font-size:12px;
+	margin:0px;
+	}
+#null_div{
+	float:none;
+	clear:both;}
+/*菜单栏的css*/
+#title{
+	padding:0px;
+	margin:0px;
+	background-color:#545652;
+	height:29px;
+	width:100%;
+	min-width:1350px;}
+/*菜单栏内容*/
+#menua{
+	width:750px; float:left; position:relative; height:29px;}
+.menua,
+.menua ul,
+.menua li,
+.menua a{
+	margin:0;
+	padding:0;
+	border: none;
+	outline: none;}
+.menua{
+	width:800px;
+	height:29px;
+	}
+.menua li{
+	position:relative;
+	list-style:none;
+	float:left;
+	display:block;
+	height:29px;
+	}
+.menua li a{
+	width:50px;
+	display:block;
+	line-height:28px;
+	text-decoration:none;
+	
+	font-size:12px;
+	font-family:宋体;
+	color:#D5D5D5;
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;}
+.menua li:hover > a{color:#F4EBEB;}
+
+#menub{
+	float:right; position:relative; width:200px;}
+.menub,
+.menub ul,
+.menub li,
+.menub a{
+	margin:0;
+	padding:0;
+	border: none;
+	outline: none;}
+.menub{
+	width:200px;
+	height:29px;
+	}
+.menub li{
+	position:relative;
+	list-style:none;
+	float:left;
+	display:block;
+	height:29px;
+	}
+.menub li a{
+	width:50px;
+	display:block;
+	line-height:28px;
+	text-decoration:none;
+	/*border-left: 1px solid  #000000;
+	border-right: 0px solid #000000;*/
+	font-size:12px;
+	font-family:宋体;
+	color:#D5D5D5;
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;}
+.menub li:hover > a{color:#F4EBEB;}
+
+/*douban*/
+#douban{
+	width:1350px;
+	height:80px;
+	background:#EDF4ED;
+}
+.douban_menu,
+.douban_menu ul,
+.douban_menu li,
+.douban_menu a{
+	margin:0;
+	padding:0;
+	border: none;
+	outline: none;}
+.douban_menu{
+	padding-left:10px;
+	padding-top:30px;
+	height:50px;
+	float:left;
+	}
+.douban_menu li{
+	position:relative;
+	list-style:none;
+	float:left;
+	display:block;
+	height:29px;
+	}
+.douban_menu li a{
+	width:80px;
+	display:block;
+	line-height:28px;
+	text-decoration:none;
+	/*border-left: 1px solid  #000000;
+	border-right: 0px solid #000000;*/
+	font-size:16px;
+	font-family:宋体;
+	color:black;
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;}
+.douban_menu li:hover > a{color:#F4EBEB;}
+.seach{
+	padding-top:20px; padding-right:180px; float:right;}
+#search1{
+	float:left; 
+	position:relative;}
+	

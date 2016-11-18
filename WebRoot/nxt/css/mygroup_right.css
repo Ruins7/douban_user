@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+#mygroup_right{
+	position:absolute;
+	float:left;
+	width:380px;
+	left:920px;
+	padding:10px;
+}
+.profile_entry{
+	background-color:#F9F9F9;
+	width:300px;
+	height:65px;
+	margin-top:60px;
+	padding:8px;
+	font-size:13px;
+}
+.profile_entry a:hover{
+	background-color:#3377AA;
+	text-decoration:none;
+	color:#D8D5D5;
+}
+.pic{
+	position:relative;
+	float:left;
+}
+.info{
+	position:relative;
+	float:left;
+	left:10px;
+}
+.info_detail{
+	margin-top:8px;
+}
+
+.info_detail a{
+	color:#494949;
+}
+.info a:hover,
+.info_detail a:hover{
+	color: white;
+}
+#friend_group{
+	margin-top:100px;
+}
+#friendgroup_list ul>li,
+#recentjoin_list ul li{
+	list-style:none;
+	float:left;
+	margin:0 0 15px 5px;
+	width:70px;
+}
+#br_null{
+	float:none;
+	clear:both;
+}
+#topic_ad img{
+	margin-top:25px;
+}
+#application{
+	font-family:"微软雅黑";
+	font-size:13px;
+	
+}
+#application a{
+	color:#CA6445;
+}
+#application a:hover{
+	text-decoration:none;
+	background-color:#CA6445;
+	color:#F9F8F8;
+}
+	

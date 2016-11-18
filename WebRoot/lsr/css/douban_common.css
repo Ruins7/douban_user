@@ -1,0 +1,36 @@
+#left{
+   width: 700px;
+   height: auto;
+   min-height: 300px;
+ 
+   margin-top: 100px;
+   padding-left: 20px;
+}
+#myfocuspeople{
+	font-size: 26px;
+	font-weight: 900;
+}
+#group ul{
+	font-size: 12px;
+	list-style-type: none;
+}
+#group ul li{
+	float: left;
+	width: 50px;
+}
+#friends{
+	width: 650px;
+	min-height: 100px;
+	height: auto;
+	float: left;
+}
+#friend{
+	width: 630px;
+	height: 70px;
+	 
+	margin-top: 15px;
+	margin-left: 15px;
+}
+#name{
+	margin-left: 10px;
+}

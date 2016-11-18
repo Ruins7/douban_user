@@ -1,0 +1,103 @@
+@charset "utf-8";
+*{
+	font-family:宋体;
+	padding:0px;
+	margin:0px;
+	}
+/*菜单栏的css*/
+#title{
+	padding:0px;
+	margin:0px;
+	background-color:#545652;
+	height:29px;
+	width:1350px;}
+/*菜单栏内容*/
+.menu,
+.menu ul,
+.menu li,
+.menu a{
+	margin:0;
+	padding:0;
+	border: none;
+	outline: none;}
+.menu{
+	width:800px;
+	height:29px;
+	}
+.menu li{
+	position:relative;
+	list-style:none;
+	float:left;
+	display:block;
+	height:29px;
+	}
+.menu li a{
+	width:50px;
+	display:block;
+	line-height:28px;
+	text-decoration:none;
+	/*border-left: 1px solid  #000000;
+	border-right: 0px solid #000000;*/
+	font-size:16px;
+	font-family:宋体;
+	color:black;
+	-webkit-transition: color .2s ease-in-out;
+	-moz-transition: color .2s ease-in-out;}
+.menu li:hover > a{color:#F4EBEB;}
+/*/////////////////////////////////////*/
+#city_title{
+	width:1350px;
+	height:72px;
+	background:#F6F5F2}
+.city_img{
+	float:left;
+	position:relative;
+	margin-left:200px;
+	padding-top:15px;}
+.amenu{
+	width:100px;
+	float:left;
+	position:relative;}
+.seach{
+	padding-left:900px;
+	padding-top:20px;}
+
+
+/*左边*/
+#left{
+	float:left;
+	position:absolute;
+	left:190px;
+	width:623px;
+	height:3000px;}
+#classify{
+	background:#F6F5F2;
+	width:623px;
+	height:114px;
+	margin-top:300px;}
+.classify_td{
+	width:124px;
+	height:30px;
+	padding-top:10px;
+	}	
+	
+	
+	
+/*右边*/
+#right{
+	float:left;
+	position:relative;
+	margin-left:813px;
+	width:337px;
+	height:1500px;
+	}
+.right_left{
+	float:left;
+	position:relative;
+	width:65px;
+	height:110px;}
+.right_right{
+	float:left;
+	position:relative;
+	width:272px;
+	height:110px;}

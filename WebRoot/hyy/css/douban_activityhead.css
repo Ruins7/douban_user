@@ -1,0 +1,76 @@
+@charset "utf-8";
+/*菜单栏内容*/
+#title{	
+	padding-top:1px;
+	margin:0px;
+	background-color:#545652;
+	height:24px;
+	width:100%;
+    min-width:1000px;	
+}
+#menua{
+	height: 25px;
+	width: 70%;
+	float: left;
+}
+#menub{
+	height: 25px;
+	width: 20%;
+	float: right;
+}
+#menua ul li{
+	text-align:center;
+	margin-left:10px;
+    float:left;
+	width: 60px;
+	list-style-type: none;
+	font-size: 13px;
+	padding-top: 3px;
+}
+#menua ul li a{
+	text-decoration:none;
+	color: #DDDDDD;
+}
+#menua ul li a:hover{
+	text-decoration:none;
+	color: #EDF4ED;
+}
+
+#menub ul{
+	width: 270px;
+}
+#menub ul li{
+	text-align:center;
+	margin-left:10px;
+    float:left;
+	width: 60px;
+	list-style-type: none;
+	font-size: 13px;
+	padding-top: 3px;
+}
+#menub ul li a{
+	text-decoration:none;
+	color: #DDDDDD;
+}
+#menub ul li a:hover{
+	text-decoration:none;
+	color: #EDF4ED;
+}
+/*第二title*/
+#city_title{
+	width:1350px;
+	height:72px;
+	background:#F6F5F2}
+.city_img{
+	float:left;
+	position:relative;
+	margin-left:200px;
+	padding-top:15px;}
+.amenu{
+	width:100px;
+	float:left;
+	position:relative;}
+.seach{
+	padding-left:900px;
+	padding-top:20px;}
+ 

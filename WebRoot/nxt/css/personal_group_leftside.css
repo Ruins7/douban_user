@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+#personal_group_leftside{
+	position:absolute;
+	float:left;
+	width:680px;
+	height:auto;
+	left:140px;
+	padding:25px;
+}
+#mygroup{
+	font-family:"微软雅黑";
+	font-size:24px;
+	color:#494949;
+}
+#personal_group_leftside hr{
+	margin-top:12px;
+	margin-bottom:7px;
+	color: #565656;
+}
+	
+#mygroup_nav a{
+	padding:6px;
+	text-decoration:none;
+}
+#mygroup_nav>a:nth-child(1){
+	background-color:#6EBFC3;
+	border-radius:4px 4px 4px 4px;
+	color:#F3F3F3;
+}
+#mygroup_nav a:hover{
+	background-color:#6EBFC3;
+	border-radius:4px 4px 4px 4px;
+	color:#F3F3F3;
+}
+#joins{
+	float:none;
+}
+#group_list{
+	width:680px;
+}
+#group_list ul >li{
+	list-style:none;
+	float:left;
+	width:200px;
+	height:70px;
+	border:solid 1px #EEEEEE;
+	margin:5px;
+}
+#group_pic{
+	float:left;
+	margin:9px;
+}
+#group_info{
+	float:left;
+	margin:9px;
+	font-size:12px;
+}
+#group_title a:hover{
+	background-color:#3377AA;
+	color:#F5F5F5;
+	text-decoration:none;
+}
+#group_info>span{
+	color:#A39F9F;
+}
+#null_div{
+	float:none;
+	clear:both;
+}
+#space{
+	margin-top:8px;
+}
+.mod_topic{
+	float:none;
+	clear:both;
+	font-size:12px;
+	line-height:30px;
+}
+.pl{
+	border-bottom:0px dashed #D4D4D4;
+}
+.title{
+	width:350px;
+}
+.td-reply{
+	width:80px;
+}
+.td-time{
+	width:180px;
+}
+.td-group{
+	width:80px;
+}
