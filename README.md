@@ -3,7 +3,7 @@
 ##This is my bachelor graduate project which is a SNS system##
 
 ### TECHNOLOGIES
--  JAVAEE
+-  J2EE
 - MVC
 - STRUTS
 - HIBERNATE
