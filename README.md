@@ -1,4 +1,4 @@
-# douban_user #
+# douban_user # (Cookie)
 
 ##This is my bachelor graduate project which is a SNS system##
 
